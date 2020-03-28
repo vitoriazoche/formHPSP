@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Ficha HPSP Porto Alegre</title>
+        <!-- Cadastrar fichas, visualizar, editar e gerar PDF" -->
+        <link rel="stylesheet" href="/css/estilo.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./img/star.ico">
+    </head>
+    <body>
+        <div class="container">
+            <header class="center">
+            <p>
+              <img src="/img/logo-museo2.png" ><br>
+                Universidade Federal do Rio Grande do Sul(UFRGS)<br>
+                Faculdade de Biblioteconomia e Comunicação (FABICO)<br>
+                Curso de Bacharelado em Museologia<br>
+                Tópicos Especiais em Museografia(BIB03100)<br>
+                Proª. Vanessa aquino
+            </p>
+            <h3> Ficha de Identificação de Conservação</h3><br>
+            </header>
+
+            <form onsubmit="checkfiles(this)">
+              <h6 class="boxId">IDENTIFICAÇÃO </h6>
+              <div class="form-group">
+                <input class="form-control" type="text" id="titulo" placeholder="Titulo da obra">
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="text" id="titulo" placeholder="Autor">
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="number"placeholder="Nº de registro">
+              </div>
+
+              <div class="form-group">
+                <!-- seleção da pasta em que a obra se encontra -->
+                <select class="form-control" id="pastaSelect">
+                    <option class="inative">Selecione a pasta</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>14</option>
+                    <option>15</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="date" class="form-control" placeholder="data da obra">
+              </div>
+
+              <!-- Digite a data em centímetros da largura x altura da obra-->
+              <div class="form-group">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Altura">
+                    </div>
+                    –
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Largura">
+                    </div>
+                  </div>
+              </div>
+
+              <!--Selecione o tipo de material-->
+              <div class="form-group">
+                  <select class="form-control" id="pastaSelect">
+                    <option class="inative">Selecione a tipologia do material</option>
+                    <option>Papel</option>
+                    <option>plástico</option>
+                    <option>ferro</option>
+                    <option>biologico</option>
+                  </select>
+              </div>
+
+              <!-- Seleção da técnica-->
+              <div class="form-group">
+              <select class="form-control" id="pastaSelect">
+                    <option class="inative">Selecione o técnica utilizada na obra</option>
+                    <option>Papel</option>
+                    <option>Guache</option>
+                    <option>Nanking</option>
+                  </select>
+              </div>
+
+              <div class="form-group">
+                <input type="file" name="arquivos" id="filename" class="btn btn-outline-dark btn-block">
+              </div>
+              <!-- Estado geral de conservação-->
+              <div class="form-group">
+              Descreva o estado geral de conservação:
+                    <textarea class="form-control" rows="3">
+                     
+                  </textarea>
+              </div>
+
+              <!--Principais ações de deterioração-->
+              <div class="form-group">
+               <div class="row">
+                    <div class="col">
+                      <input type="checkbox" class="form-check-label">&nbsp Sujidade<br>
+                      <input type="checkbox" class="form-check-label">&nbsp Manchas (adesivos/oxidação)<br>
+                      <input type="checkbox" class="form-check-label">&nbsp Foxing<br>
+                      <input type="checkbox" class="form-check-label">&nbsp Deformação (dobras)<br>
+                    </div>
+
+                    <div class="col">
+                      <input type="checkbox" class="form-check-label">&nbsp Rasgos<br>
+                      <input type="checkbox" class="form-check-label">&nbsp Amarelecimento<br>
+                      <input type="checkbox" class="form-check-label">&nbsp Biodeterioração(fungos/insetos)<br>
+                      <input type="checkbox" class="form-check-label">&nbsp Craquelamento<br>
+                    </div> 
+                  </div>
+                 <br>
+  
+              <!-- Análise de estado de conservação -->
+              <div class="row" align="center">
+                   <div class="col-md-auto">
+                     <p>Análise do estado:</p>
+                   </div>
+                   <div class="col-md-auto">
+                      <input type="radio" class="form-check-input"> Bom
+                   </div>
+                   <div class="col-md-auto">
+                      <input type="radio" class="form-check-input"> Regular
+                   </div>
+                   <div class="col-md-auto">
+                      <input type="radio" class="form-check-input"> Ruim
+                  </div>
+                </div>
+              </div>
+                   
+             <!-- Estado geral de conservação-->
+              <div class="form-group">
+                 <h5>Descreva o tratamento técnico que foi empregado:</h5>
+              </div>
+              <div class="form-group">
+                  I. Descreva como foi feita a higienização:
+                  <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                  II. Descreva como foi feita o acondicionamento:
+                  <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                  III. Observações:
+                  <textarea class="form-control" rows="3"></textarea>
+              </div>   
+              
+              <!-- Comentários Finais-->
+              <div class="form-group">
+                <p> Informações de identificação do responsáveis pela ficha, assim como da data de realização.</p>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nome aluno 1">
+                  </div>   
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nome aluno 2">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                  <input type="date" class="form-control">
+              </div>    
+
+                  <!-- Botoess-->
+              <div class="form-group">
+                  <div class="row">
+                    <div class="col">
+                      <button class=" btn btn-outline-dark btn-block" type="reset">Cancelar</button>
+                    </div>
+                    <div class="col">
+                     <button class=" btn btn-outline-danger btn-block" id="gerarPDF">Gerar PDF</button>
+                   </div>
+                   <div class="col">
+                     <button class=" btn btn-outline-success btn-block" type="submit">Salvar</button>
+                   </div>
+                  </div>
+              </div>
+            </form>
+            
+        </div>
+    </body>
+
+    <script src="/js/form.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
