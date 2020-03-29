@@ -1,0 +1,28 @@
+{
+  "name": "formhpsp",
+  "version": "1.0.0",
+  "description": "sistema para registro e guarda de registros do museu hpsp",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoriazoche/formHPSP.git"
+  },
+  "author": "vitoria zoche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoriazoche/formHPSP/issues"
+  },
+  "homepage": "https://github.com/vitoriazoche/formHPSP#readme"
+}
