@@ -1,25 +1,5 @@
-# form-museu
-
-Legenda de emotes de commit:
-
-
-|Tipo de  Commit    | Emote             |
-| :----             | :----             |
-|Documentação       | :books:           |
-|Conteúdo novo      | :sparkles:        |
-|Conserto de Bug    | :bug:             |
-|testando           | :rotating_light:  |
-|em construção      | :construction:    |
-| apenas pacotes    | :package:         |
-| Pesquisa          | :mag:             |
-|museologia stuff   | :moyai:           |
-
-
-
 links de auxilio:
 
-* [Documentação Laravel](https://laravel.com/docs/6.x/installation)
-* [Documentação Laravel 2](https://www.hostinger.com/laravel-hosting?_ga=2.170068581.414713139.1580846134-1554935831.1580846134)
 * [Mudança do tamanho do campo](https://tutorialehtml.com/pt/html-tutorial-campos-de-texto/)
 * [Centralizar elementos no css](https://pt.stackoverflow.com/questions/80375/alinhamento-de-imagem-com-css)
 * [JavaScript](https://www.devmedia.com.br/alert-em-javascript/37208)
@@ -29,7 +9,6 @@ links de auxilio:
 ### o que está instalado para usar:
 
 * Fonts-awesome v0.0.7
-* Laravel v0.0.1
 * Scss v0.2.4
 * Bootstrap v4
 
