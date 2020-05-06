@@ -1,4 +1,23 @@
-links de auxilio:
+<h2> Museum Forms </h2>
+
+<blockquote> O desenvolvimento de um sistema resposivo para o cadastro e o registro de fichas de obras de arte. Nele será possível cadastrar novas obras, adicionar imagens, editar registros antigos ou novos e gerar PDF. A ideia desse sistema deu-se ao final da eletiva de Tópicos Especiais em Museografia (BIB03100) lecionada na Universidade Federal do Rio Grande do Sul (UFRGS).</blockquote>
+
+Alguns dos objetivos e testes as serem realizados:
+
+- [ ] Torná-lo responsivo;
+- [ ] Ficha ser gerada em PDF;
+- [ ] Integração com o Tainacan 
+- [ ] Integrar identificação utilizada pela museóloga do HPSP
+- [ ] Adicionar imagens a ficha
+- [ ] tabela de checklist para ações de deteriorização
+
+Três caixas de texto de descrição para:
+- [ ] higienização;
+- [ ] acondicionamento;
+- [ ] observações;
+    
+   
+ <h4> Links utilizados durante o desenvolvimento</h4>
 
 * [Mudança do tamanho do campo](https://tutorialehtml.com/pt/html-tutorial-campos-de-texto/)
 * [Centralizar elementos no css](https://pt.stackoverflow.com/questions/80375/alinhamento-de-imagem-com-css)
@@ -6,34 +25,8 @@ links de auxilio:
 * [Checar arquivos do input files](https://pt.stackoverflow.com/questions/66733/upload-somente-de-imagens)
 * [gerando PDF com jsPDF](https://pt.stackoverflow.com/questions/74266/transformar-html-em-pdf)
 
-### o que está instalado para usar:
+<h4> Ferramentas e frameworks utilizados</h4>
 
 * Fonts-awesome v0.0.7
 * Scss v0.2.4
 * Bootstrap v4
-
-##### Ficha utilizada para se basear foi feita durante a disciplina de **tópicos especiais em museografia (BIB03100)** durante o segundo semestre do curso de bacharel em museologia na UFRGS. O objetivo é que com este formulário possasse cadastrar fichas, editá-las, visualizar e gerar um arquivo PDF.
-
-#### *As metas para esse projeto são:*
-
-:o: a fazer
-:x: feito
-:bangbang: importante
-
-:o: Torná-lo responsivo e acessível a todos;
-
-:o: Ser possível gerar um pdf da ficha
-
-:bangbang: Faça integração com o Tainacan 
-
-:o: integrar identificação utilizada pela museóloga do HPSP
- 
-:o: Poder adicionar imagens a ficha
-
-:o: tabela de check para ações de deteriorização
-
-:o: três caixas de descrição para:
-    
-    a) higienização;
-    b) acondicionamento;
-    c) observações;
