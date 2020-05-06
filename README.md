@@ -30,3 +30,5 @@ Três caixas de texto de descrição para:
 * Fonts-awesome v0.0.7
 * Scss v0.2.4
 * Bootstrap v4
+
+Quer saber mais de mim ou chamar pra bater um papo? Me chama lá <a href="https://twitter.com/vitoriazoche">Twitter</a>, <a href="https://linkedin.com/in/VitoriaZoche">Linkedin</a> e <a href="https://instagram.com/vzoccheart">Instagram</a>
